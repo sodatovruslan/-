@@ -355,6 +355,65 @@ margin-left: 50px;
 	margin-top: 50px;
 	margin-left: 1100px;
 }
+.FlexFooter{
+	display: flex;
+	justify-content: space-around;
+}
+.Onas{
+	display: flex;
+gap: 30px;
+	align-items: center;
+}
+.pOnas{
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+}
+.InstFlex{
+	display: flex;
+justify-content: space-around;
+margin-top: 30px;
+align-items: center;
+}
+.pkaluga{
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	width: 250px;
+	line-height: 24px;
+}
+.pInst{
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	width: 100px;
+		line-height: 24px;
+}
+.DivEnd{
+	display: flex;
+	justify-content: space-between;
+	width: 93%;
+	margin: auto;
+	margin-top: 30px;
+}
+.PravaFlex{
+	display: flex;
+	gap: 20px;
+}
+.pprava{
+	font-size: 14px;
+	font-weight: 400;
+	color: rgb(135, 128, 128);
+}
+.hr1{
+	margin-top: 80px;
+}
+.Flex2023{
+	display: flex;gap: 10px;
+}
+.Footer{
+	padding: 40px;
+}
 @media (max-width:510px) {
 .menu{
 	display: block;
@@ -449,12 +508,42 @@ margin-left: 50px;
 	margin-left: 5px;
 }
 .SectionFifth{
-border: 1px solid red;
+
 background-color: white;
 
 }
 .butЗаказ{
 	margin-left: 20px;
+	padding: 10px;
 }
-
+.Footer{
+  margin-top: 700px;
+}
+.FlexFooter{
+  flex-direction: column;
+}
+.Onas{
+  flex-direction: column;
+  align-items: start;
+}
+.InstFlex{
+  flex-direction: column;
+  align-items: start;
+  row-gap: 20px;
+}
+.DivEnd{
+  flex-direction: column;
+}
+.PravaFlex{
+  flex-direction: column;
+}
+.Flex2023{
+  margin-top: 30px;
+}
+.Logo{
+  width: 200px;
+}
+.FonWeight{
+  margin-top: 20px;
+}
 }
