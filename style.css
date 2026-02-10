@@ -35,6 +35,7 @@ body{
 	height: 270px;
 	margin: auto;
 	margin-top: 40px;
+	background-color: #0f2c45;
 }
 .borderground{
 	border: 1px solid rgb(255, 246, 246);
@@ -135,6 +136,7 @@ body{
 }
 .SectionSecond{
 	margin-top: 30px;
+	background-color: #0f2c45;
 }
 .pKomleks{
 	line-height: 20px;
@@ -190,6 +192,7 @@ body{
 .SectionThird{
 	background-color: white;
 	
+	
 }
 .Imgtext{
 position: relative;
@@ -219,6 +222,89 @@ left: 20px;
 gap: 30px;
 margin: auto;
 margin-top: 50px;
+}
+.SectionFourth{
+	background-color: white;
+	
+}
+.img01{
+	width: 891px;
+	height: 481px;
+	background-color: #476178;
+
+}
+.POdnaznachno{
+font-size: 14px;
+font-weight: 400;
+color: #FFFFFF;
+width: 356px;
+line-height: 20px;
+}
+.pKatalog{
+	font-size: 58px;
+	font-weight: 700;
+	color: white;
+}
+.texxt{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 200px;
+	text-align: center;
+	row-gap: 30px;
+}
+.img02{
+	position: relative;
+}
+.pKaling{
+	position: absolute;
+	color: white;
+	font-size: 32px;
+	font-weight: 700;
+	top: 10px;
+	left: 20px;
+}
+.pMosh{
+	position: absolute;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	border: 1px solid white;
+	top: 60px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.pInverter{
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	position: absolute;
+	top: 60px;
+	left: 180px;
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 10px;
+}
+.flexximg{
+	display: flex;
+	justify-content: center;
+}
+.img011{
+	width: 891px;
+	height: 481px;
+	background-image: url(./ПВХ-изделия.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+
+}
+.img022{
+	position: relative;
+	
+
+
 }
 @media (max-width:510px) {
 .menu{
@@ -288,5 +374,18 @@ margin-top: 50px;
 }
 .pixel{
 	width: 100%;
+}
+.flexximg{
+	flex-direction: column;
+	
+}
+.img01{
+	width: 400px;
+}
+.img011{
+	width: 400px;
+}
+.redstage{
+	width: 400px;
 }
 }
