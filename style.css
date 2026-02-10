@@ -1,4 +1,46 @@
 *
 {
 	margin: 0;
+	font-family: sans-serif;
+}
+.Header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 20px;
+}
+body{
+	background-color: #476178;
+}
+.header2{
+	display: flex;
+}
+.Pmoskva{
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+}
+.header1{
+	display: flex;
+	align-items: center;
+}
+.menu{
+	display: none;
+}
+@media (max-width:510px) {
+.menu{
+	display: block;
+}	
+.Pmoskva{
+	display: none;
+}
+.map{
+	display: none;
+}
+.Header{
+	justify-content: space-between;
+	width: 95%;
+	margin: auto;
+	margin-top: 20px;
+}
 }
