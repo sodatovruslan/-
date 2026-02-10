@@ -180,6 +180,46 @@ body{
 	font-weight: 500;
 	color: white;
 }
+.pуслуги{
+	font-size:58px ;
+	font-weight: 700;
+	color: #191A1A;
+	margin-left: 94px;
+	margin-top: 60px;
+}
+.SectionThird{
+	background-color: white;
+	
+}
+.Imgtext{
+position: relative;
+
+}
+.outblock{
+	font-size: 18px;
+	font-weight:400 ;
+	color: white;
+
+}
+.outblock{
+	position: absolute;
+	border: 1px solid rgb(228, 199, 199);
+	padding: 10px;
+	border-radius: 10px;
+top: 20px;
+left: 20px;
+}
+.Outtt{
+	border: 1px solid ;
+}
+.divBlock{
+	width: 87%;
+	display: flex;
+	flex-wrap: wrap;
+gap: 30px;
+margin: auto;
+margin-top: 50px;
+}
 @media (max-width:510px) {
 .menu{
 	display: block;
@@ -239,5 +279,14 @@ body{
 }
 .textbott{
 	align-items: start;
+}
+.Imgtext{
+	display: flex;
+	flex-direction: column;
+	
+	width: 100%;
+}
+.pixel{
+	width: 100%;
 }
 }
